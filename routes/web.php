@@ -65,11 +65,13 @@ Route::middleware(['auth'])->group(function () {
     Route::post('tvp', [AlltvController::class, 'paytv'])->name('tvp');
     Route::post('verifytv', [AlltvController::class, 'verifytv'])->name('verifytv');
     Route::get('airtime', [AuthController::class, 'airtime'])->name('airtime');
-    Route::post('time', [BillController::class, 'bill'])->name('time');
+    Route::post('buyairtime', [BillController::class, 'bill'])->name('buyairtime');
     Route::post('data', [BillController::class, 'data'])->name('data');
     Route::post('buydata', [AuthController::class, 'buydata'])->name('buydata');
+    Route::get('redata/{data}', [BillController::class, 'listdata'])->name('redata');
     Route::post('pre', [AuthController::class, 'pre'])->name('pre');
     Route::post('bill', [BillController::class, 'bill'])->name('bill');
+    Route::post('billdata', [BillController::class, 'bill'])->name('billdata');
     Route::get('fund', [FundController::class, 'fund'])->name('fund');
     Route::get('tran/{reference}', [FundController::class, 'tran'])->name('tran');
     Route::get('vertual', [VertualController::class, 'vertual'])->name('vertual');
