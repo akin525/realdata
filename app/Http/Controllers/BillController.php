@@ -199,30 +199,32 @@ class BillController
         $response = curl_exec($curl);
 
         curl_close($curl);
+        $all= json_decode($response, true);
+        $bab=$all['data'];
+        $system_amount=$bab['tamount'];
+//        return response()->json($system_amount, Response::HTTP_BAD_REQUEST);
 
-        return response()->json($response, Response::HTTP_BAD_REQUEST);
-
-        if ($user->wallet < $request->amount) {
-            $mg = "You Cant Make Purchase Above" . "NGN" . $request->amount . " from your wallet. Your wallet balance is NGN $user->wallet. Please Fund Wallet And Retry or Pay Online Using Our Alternative Payment Methods.";
+        if ($user->wallet < $system_amount) {
+            $mg = "You Cant Make Purchase Above" . "NGN" . $system_amount . " from your wallet. Your wallet balance is NGN $user->wallet. Please Fund Wallet And Retry or Pay Online Using Our Alternative Payment Methods.";
             return response()->json($mg, Response::HTTP_BAD_REQUEST);
 
         }
         if ($request->amount < 0) {
 
             $mg = "error transaction";
-            Alert::warning('Warning', $mg);
-            return redirect('select');
+            return response()->json($mg, Response::HTTP_BAD_REQUEST);
+
 
         }
         $bo = bo::where('refid', $request->refid)->first();
         if (isset($bo)) {
             $mg = "duplicate transaction";
-            Alert::warning('Warning', $mg);
-            return redirect('select');
+            return response()->json($mg, Response::HTTP_BAD_REQUEST);
+
 
         } else {
             $user = User::find($request->user()->id);
-            $bt = data::where("id", $request->productid)->first();
+//            $bt = data::where("id", $request->productid)->first();
 //                $wallet = wallet::where('username', $user->username)->first();
 //return $bt;
             $gt = $user->wallet - $request->amount;
@@ -232,81 +234,76 @@ class BillController
             $user->save();
 
 
-            $resellerURL = 'https://integration.mcd.5starcompany.com.ng/api/reseller/';
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
-                CURLOPT_URL => $resellerURL . 'pay',
+                CURLOPT_URL => 'https://api.savebills.com.ng/api/auth/buydatanew',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
                 CURLOPT_TIMEOUT => 0,
                 CURLOPT_FOLLOWLOCATION => true,
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                CURLOPT_SSL_VERIFYHOST => 0,
-                CURLOPT_SSL_VERIFYPEER => 0,
                 CURLOPT_CUSTOMREQUEST => 'POST',
-                CURLOPT_POSTFIELDS => array('service' => 'data', 'coded' => $bt->code, 'phone' => $request->number, 'reseller_price' => $bt->tamount),
-
+                CURLOPT_POSTFIELDS =>'{
+    "id":"'.$bab['id'].'",
+    "number":"'.$request->number.'",
+    "refid":"'.$request->refid.'"
+}',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: mcd_key_qYnnxsFbbq7fO5CNHmNaD5YCey2vA'
+                    'x-api-key: SB.KEY3.5532838074845146e+43',
+                    'Content-Type: application/json'
+                ),
+            ));
 
-                )));
             $response = curl_exec($curl);
 
             curl_close($curl);
-            // echo $response;
-
 
 //return $response;
+//            return response()->json($response, Response::HTTP_BAD_REQUEST);
             $data = json_decode($response, true);
+//            return response()->json($data, Response::HTTP_BAD_REQUEST);
 
-
-            $success = $data["success"];
-//                        $msg2 = $data['msg'];
-            $po = $request->amount - $bt->tamount;
-
+            $success = $data["status"];
+//            $po = $user->wallet - $bab->tamount;
             if ($success == 1) {
                 $bo = bo::create([
                     'username' => $user->username,
-                    'plan' => $bt->plan,
+                    'plan' => $bab->plan,
                     'amount' => $request->amount,
                     'server_res' => $response,
                     'result' => $success,
                     'phone' => $request->number,
-                    'refid' => $request->id,
+                    'refid' => $request->refid,
                 ]);
 
-                $profit = profit::create([
-                    'username' => $user->username,
-                    'plan' => $bt->plan,
-                    'amount' => $po,
-                ]);
+//                $profit = profit::create([
+//                    'username' => $user->username,
+//                    'plan' => $bab->plan,
+//                    'amount' => $po,
+//                ]);
 
-                $name = $bt->plan;
-                $am = "$bt->plan  was successful delivered to";
+                $name = $bab['plan'];
+                $am = "$name  was successful delivered to";
                 $ph = $request->number;
+                return response()->json([
+                    'status' => 'success',
+                    'message' => $am.' ' .$ph,
+                ]);
 
+            } else {
+//                $zo = $user->wallet + $request->amount;
+//                $user->wallet = $zo;
+//                $user->save();
 
-                $receiver = $user->email;
-                $admin = 'admin@primedata.com.ng';
-
-//                            Mail::to($receiver)->send(new Emailtrans($bo ));
-//                            Mail::to($admin)->send(new Emailtrans($bo ));
-                Alert::success('Success', $am . ' ' . $ph);
-                return redirect('dashboard');
-
-            } elseif ($success == 0) {
-                $zo = $user->wallet + $request->amount;
-                $user->wallet = $zo;
-                $user->save();
-
-                $name = $bt->plan;
-                $am = "NGN $request->amount Was Refunded To Your Wallet";
+                $name = $bab['tamount'];
+                $am = "NGN $name Was Refunded To Your Wallet";
                 $ph = ", Transaction fail";
-                Alert::error('Error', $am . '' . $ph);
-                return redirect('dashboard');
-
+                return response()->json([
+                    'status' => 'fail',
+                    'message' => $response,
+                ]);
             }
         }
     }

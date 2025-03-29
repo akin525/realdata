@@ -71,7 +71,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('redata/{data}', [BillController::class, 'listdata'])->name('redata');
     Route::post('pre', [AuthController::class, 'pre'])->name('pre');
     Route::post('bill', [BillController::class, 'bill'])->name('bill');
-    Route::post('billdata', [BillController::class, 'bill'])->name('billdata');
+    Route::post('billdata', [BillController::class, 'data'])->name('billdata');
     Route::get('fund', [FundController::class, 'fund'])->name('fund');
     Route::get('tran/{reference}', [FundController::class, 'tran'])->name('tran');
     Route::get('vertual', [VertualController::class, 'vertual'])->name('vertual');
