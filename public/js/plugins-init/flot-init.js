@@ -14,7 +14,7 @@
 				bars: {
 					show: true,
 					lineWidth: 0,
-					fillColor: '#511411'
+					fillColor: '#141517'
 				}
 			},
 			grid: {
@@ -44,14 +44,14 @@
 			bars: {
 				show: true,
 				lineWidth: 0,
-				fillColor: '#511411'
+				fillColor: '#141517'
 			}
 		}, {
 			data: [[1, 5], [3, 7], [5, 10], [7, 7], [9, 9], [11, 5], [13, 4], [15, 6]],
 			bars: {
 				show: true,
 				lineWidth: 0,
-				fillColor: '#511411'
+				fillColor: '#141517'
 			}
 		}],
 		{
@@ -84,12 +84,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#511411'
+				color: '#141517'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#511411'
+				color: '#141517'
 			}
 		],
 		{
@@ -142,12 +142,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#511411'
+				color: '#141517'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#511411'
+				color: '#141517'
 			}
 		],
 		{
@@ -205,12 +205,12 @@
 			{
 				data: newCust2,
 				label: 'New Customer',
-				color: '#511411'
+				color: '#141517'
 			},
 			{
 				data: retCust2,
 				label: 'Returning Customer',
-				color: '#511411'
+				color: '#141517'
 			}
 		],
 		{
@@ -263,12 +263,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#511411'
+				color: '#141517'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#511411'
+				color: '#141517'
 			}
 		],
 		{
@@ -322,12 +322,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#511411'
+				color: '#141517'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#511411'
+				color: '#141517'
 			}
 		],
 		{
@@ -446,7 +446,7 @@
 		var updateInterval = 1000;
 
 		var plot4 = $.plot('#flotRealtime1', [getRandomData()], {
-			colors: ['#511411'],
+			colors: ['#141517'],
 			series: {
 				lines: {
 					show: true,
@@ -511,7 +511,7 @@
 		var updateInterval = 1000;
 
 		var plot5 = $.plot('#flotRealtime2', [getRandomData()], {
-			colors: ['#511411'],
+			colors: ['#141517'],
 			series: {
 				lines: {
 					show: true,

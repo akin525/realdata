@@ -9,7 +9,7 @@
 	var peityLine = function(){
 		$(".peity-line").peity("line", {
 			fill: ["rgba(234, 73, 137, .0)"],
-			stroke: '#511411',
+			stroke: '#141517',
 			strokeWidth: '4',
 			width: "280",
 			height: "50"

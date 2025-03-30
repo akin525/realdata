@@ -74,13 +74,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h1>Lelesco Enterprise</h1>
-                    <h2>We are here to serve you better </h2>
+                    <h1>Welcome to Real Data Sub</h1>
+                    <h2>Nigeria's No.1 Platform For Internet Data Purchase, Airtime Topup, TV Cable Subscription & Bill Payment. </h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         @auth
                         <a href="{{ url('/dashboard') }}" class="btn-get-started scrollto">Dashboard</a>
                         @else
                         <a href="{{ route('register') }}" class="btn-get-started scrollto">Sign Up</a>
+                            &nbsp  &nbsp;&nbsp
                         <a href="{{ route('login') }}" class="btn-get-started scrollto">Login</a>
                         @endauth
                     </div>
@@ -117,13 +118,13 @@
                         <img src="{{asset('assets/img/9mobile.png')}}" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{asset('assets/img/eletricity.png')}}" class="img-fluid" alt="">
-                    </div>
+{{--                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">--}}
+{{--                        <img src="{{asset('assets/img/eletricity.png')}}" class="img-fluid" alt="">--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{asset('assets/img/cable-tv.png')}}" class="img-fluid" alt="">
-                    </div>
+{{--                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">--}}
+{{--                        <img src="{{asset('assets/img/cable-tv.png')}}" class="img-fluid" alt="">--}}
+{{--                    </div>--}}
 
                 </div>
 
@@ -151,7 +152,7 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            Certain things are hard 😓 but making payments shouldn't be one of them 😋💗. Lelesco Enterprise helps you make payments for services you enjoy right from the comfort of your home or office. The experience of total convenience,fast service delivery and easy payment is just at your fingertips.
+                            Certain things are hard 😓 but making payments shouldn't be one of them 😋💗. Real Data Sub helps you make payments for services you enjoy right from the comfort of your home or office. The experience of total convenience,fast service delivery and easy payment is just at your fingertips.
                         </p>
                         <a href="#" class="btn-learn-more">Learn More</a>
                     </div>
@@ -172,9 +173,9 @@
                         <img src="{{asset('assets/img/skills.png')}}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                        <h3>About Lelesco Enterprise</h3>
+                        <h3>About Real Data Sub</h3>
                         <p class="fst-italic">
-                            With Lelesco Enterprise, you can purchase your airtime, data, electricity bills and TV subscription with just the click of a button, all by yourself, seamlessly and without stress. We operate a 24/7 days support system with prompt response to any complains or suggestion from our esteemed clients.
+                            With Real Data Sub, you can purchase your airtime, data, electricity bills and TV subscription with just the click of a button, all by yourself, seamlessly and without stress. We operate a 24/7 days support system with prompt response to any complains or suggestion from our esteemed clients.
                         </p>
 
                         <div class="skills-content">
@@ -241,13 +242,22 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                    <!--          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">-->
+                    <!--            <div class="icon-box">-->
+                    <!--              <div class="icon"><i class="bx bx-tachometer"></i></div>-->
+                    <!--              <h4><a href="">CableTV</a></h4>-->
+                    <!--              <p>Pay your gotv, DSTV, Startimes</p>-->
+                    <!--            </div>-->
+                    <!--          </div>-->
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4><a href="">CableTV</a></h4>
-                            <p>Pay your Gotv, DSTV, Startimes</p>
+                            <h4><a href=""> CableTV</a></h4>
+                            <p>Never miss your favorite shows! Easily renew your GOtv, DStv, and Startimes subscriptions on our platform in just a few clicks</p>
                         </div>
                     </div>
+
 
                     <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box">
@@ -260,54 +270,56 @@
                 </div>
 
             </div>
-        </section><!-- End Services Section -->
+        </section>
+        <!-- End Services Section -->
 
 
-        <!-- ======= Team1 Section ======= -->
-        <section id="team1" class="team1">
-            <div class="container card">
+        <!-- ======= resller Section ======= -->
+{{--        <section id="team1" class="team1">--}}
+{{--            <div class="container card">--}}
 
-                <div class="section-title" data-aos="fade-up">
-                    <h2>Reseller Plan</h2>
-                    <p>You can Partner with us, you can have your own platform whereby you sell data, airtime, Electricity and cable TV and others</p>
-                </div>
+{{--                <div class="section-title" data-aos="fade-up">--}}
+{{--                    <h2>Reseller Plan</h2>--}}
+{{--                    <p>You can Partner with us, you can have your own platform whereby you sell data, airtime, Electricity and cable TV and others</p>--}}
+{{--                </div>--}}
 
-                <div class="row">
+{{--                <div class="row">--}}
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" >
-                        <div class="member1" data-aos="full">
-                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
-                            <div class="member-info1">
-                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want small scales ">Select</a>
-                                <span>Enjoy Your Plan</span>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" >--}}
+{{--                        <div class="member1" data-aos="full">--}}
+{{--                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>--}}
+{{--                            <div class="member-info1">--}}
+{{--                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want small scales ">Select</a>--}}
+{{--                                <span>Enjoy Your Plan</span>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="member1" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-5.jpg')}}" class="img-fluid" alt=""></div>
-                            <div class="member-info1">
-                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want medium scales">Select</a>
-                                <span>Enjoy Your Plan</span>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">--}}
+{{--                        <div class="member1" data-aos="zoom-in" data-aos-delay="100">--}}
+{{--                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-5.jpg')}}" class="img-fluid" alt=""></div>--}}
+{{--                            <div class="member-info1">--}}
+{{--                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want medium scales">Select</a>--}}
+{{--                                <span>Enjoy Your Plan</span>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" >
-                        <div class="member1" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-6.jpg')}}" class="img-fluid" alt=""></div>
-                            <div class="member-info1">
-                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want full scales with Licenses">Select</a>
-                                <span>Enjoy Your Plan</span>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" >--}}
+{{--                        <div class="member1" data-aos="zoom-in" data-aos-delay="200">--}}
+{{--                            <div class="pic1"><img width="300" src="{{asset('assets/img/team/team-6.jpg')}}" class="img-fluid" alt=""></div>--}}
+{{--                            <div class="member-info1">--}}
+{{--                                <a class="btn btn-success" href="https://wa.me/2347011223737/?text=i want to be a reseller from Lelesco Enterprise,  i want full scales with Licenses">Select</a>--}}
+{{--                                <span>Enjoy Your Plan</span>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Team Section -->
+{{--            </div>--}}
+{{--        </section>--}}
+        <!-- End reseller Section -->
 
 
 
@@ -331,53 +343,54 @@
 
 
         <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
+{{--        <section id="team" class="team section-bg">--}}
+{{--            <div class="container" data-aos="fade-up">--}}
 
-                <div class="section-title">
-                    <h2>Team</h2>
-                    <p>We are here to serve you, Thanks for coming </p>
-                </div>
+{{--                <div class="section-title">--}}
+{{--                    <h2>Team</h2>--}}
+{{--                    <p>We are here to serve you, Thanks for coming </p>--}}
+{{--                </div>--}}
 
-                <div class="row">
+{{--                <div class="row">--}}
 
-                    <div class="col-lg-6">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Mr Vincent</h4>
-                                <span>Chief Executive Officer</span>
-                                <p>The owner of Lelesco Enterprise</p>
-                                <div class="social">
-                                    <a href="http://wa.me/2348036711447"> <i class="ri-whatsapp-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
+{{--                    <div class="col-lg-6">--}}
+{{--                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">--}}
+{{--                            <div class="pic"><img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>--}}
+{{--                            <div class="member-info">--}}
+{{--                                <h4>Mr Vincent</h4>--}}
+{{--                                <span>Chief Executive Officer</span>--}}
+{{--                                <p>The owner of Lelesco Enterprise</p>--}}
+{{--                                <div class="social">--}}
+{{--                                    <a href="https://wa.link/aad9x2"> <i class="ri-whatsapp-fill"></i></a>--}}
+{{--                                    <a href=""><i class="ri-facebook-fill"></i></a>--}}
+{{--                                    <a href=""><i class="ri-instagram-fill"></i></a>--}}
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-6 mt-4 mt-lg-0">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Maduka Chinemeran Vivian</h4>
-                                <span>Assistance Manager</span>
-                                <p>Assistance Manager of  Lelesco Enterprise</p>
-                                <div class="social">
-                                    <a href="https://web.facebook.com/maduka.vivian.96"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/nikkyvee"><i class="ri-instagram-fill"></i></a>
-                                    <a href="https://wa.me/2348133347164"> <i class="ri-whatsapp-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-6 mt-4 mt-lg-0">--}}
+{{--                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">--}}
+{{--                            <div class="pic"><img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>--}}
+{{--                            <div class="member-info">--}}
+{{--                                <h4>Maduka Chinemeran Vivian</h4>--}}
+{{--                                <span>Assistance Manager</span>--}}
+{{--                                <p>Assistance Manager of  Lelesco Enterprise</p>--}}
+{{--                                <div class="social">--}}
+{{--                                    <a href="https://web.facebook.com/maduka.vivian.96"><i class="ri-facebook-fill"></i></a>--}}
+{{--                                    <a href="https://www.instagram.com/nikkyvee"><i class="ri-instagram-fill"></i></a>--}}
+{{--                                    <a href="https://wa.me/2348133347164"> <i class="ri-whatsapp-fill"></i> </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Team Section -->
+{{--            </div>--}}
+{{--        </section>--}}
+        <!-- End Team Section -->
 
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing">
@@ -447,7 +460,8 @@
                 </div>
 
             </div>
-        </section><!-- End Pricing Section -->
+        </section>
+        <!-- End Pricing Section -->
 
         <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq section-bg">
@@ -488,7 +502,7 @@
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the services available on the Lelesco Enterprise? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the services available on the Real Data Sub? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                                 <p>
                                 <h4>Airtime VTU </h4>
@@ -527,7 +541,8 @@
                 </div>
 
             </div>
-        </section><!-- End Frequently Asked Questions Section -->
+        </section>
+        <!-- End Frequently Asked Questions Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -545,29 +560,43 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>Asaba, Delta, Nigeria</p>
+                                <p>OguBolo, River State Nigeria.</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@lelescoenterprise.com.ng</p>
+                                <p>info@realdatasub.com.ng</p>
+                                <p> admin@realdatasub.com.ng </p>
+                            </div>
+                            <!--              <div class="phone">-->
+                            <!--                <i class="bi bi-phone"></i>-->
+                            <!--                <h4>Call:</h4>-->
+                            <!--                <p>+234 803 6711 447</p>-->
+                            <!--              </div>-->
+
+                            <div class="col-lg-8 col-md-6 footer-links">
+                                <h4>Our Social Networks</h4>
+                                <p>You can contact us via this</p>
+                                <div class="social-links mt-3">
+                                    <a href="https://www.youtube.com/@Ekponomendie" class="twitter"><i class="bx bxl-youtube"></i></a>
+                                    <a href="https://m.facebook.com/mendiee1/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                    <a href="https://www.instagram.com/mendiee1/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                    <a href="https://wa.link/aad9x2" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
                             </div>
 
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+234 803 6711 447</p>
-                                <p>+234 813 334 7164</p>
-                            </div>
-
-                            <iframe src="https://www.google.com/maps/place/Asaba,+Nigeria/@6.2010016,6.6792341,13z/data=!3m1!4b1!4m5!3m4!1s0x104392b2b061bd39:0x749611dbcabe9489!8m2!3d6.2059295!4d6.6958939?hl=en-US" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                            <!--              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.265818459094!2d7.196316774979461!3d4.7238251952512735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10683667a71d76ff%3A0xc600253245b79019!2s15%20Mission%20Rd%2C%20Ogu%20Bolo%20500104%2C%20Rivers!5e0!3m2!1sen!2sng!4v1742673510637!5m2!1sen!2sng" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
                         </div>
 
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <h4 class="center-text">We love to hear from you</h4>
+                            <!--              <p> <strong> Talk To Us</strong>&nbsp  &nbsp;&nbsp-->
+                            <!--              Let's Hear From You  &nbsp  &nbsp;&nbsp How Best Can We Serve You?</p>-->
+                            &nbsp  &nbsp;&nbsp
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
@@ -598,7 +627,8 @@
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </section>
+        <!-- End Contact Section -->
 
     </main><!-- End #main -->
 
@@ -610,7 +640,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h4>Join Our Platform</h4>
-                        <p>Join our network of outstanding entrepreneurs patnering with Lelesco Enterprise .</p>
+                        <p>Join our network of outstanding entrepreneurs patnering with Real Data Sub .</p>
                         <form action="" method="post">
                             <input type="email" name="email"><input type="submit" value="Subscribe">
                         </form>
@@ -624,15 +654,14 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>Lelesco Enterprise</h3>
-                        <p>
-                            Asaba,<br>
-                            Delta,<br>
-                            Nigeria <br><br>
-                            <strong>Phone:</strong> +234 803 6711 447<br>
-                            <strong>Phone:</strong> +234 813 3347 164<br>
-                            <strong>Email:</strong> info@lelescoenterprise.com.ng<br>
-                        </p>
+                        <h3>Real Data Sub</h3>
+                        <p>We offer you the most affordable and cheapest datas, airtime, cable subscription, and eletricty bil payment. When is comes to renewing your bills, we are the best partner you can have. </p>
+                        <!--            <p>-->
+                        <!--               OguBolo, River State Nigeria. <br><br>-->
+                        <!--&lt;!&ndash;              <strong>Phone:</strong> +234 803 6711 447<br>&ndash;&gt;-->
+                        <!--              <strong>Email:</strong> info@realdatasub.com.ng<br>-->
+                        <!--              &nbsp;&nbsp  &nbsp;&nbsp  <p> admin@realdatasub.com.ng </p>-->
+                        <!--            </p>-->
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
@@ -646,26 +675,26 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Airtime Sales</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Data Bundle</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">TV Subscription</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Electricity Payment</a></li>
-                        </ul>
-                    </div>
+                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->
+                    <!--            <h4>Our Services</h4>-->
+                    <!--            <ul>-->
+                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Airtime Sales</a></li>-->
+                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Bundle</a></li>-->
+                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">TV Subscription</a></li>-->
+                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Electricity Payment</a></li>-->
+                    <!--            </ul>-->
+                    <!--          </div>-->
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p>You can contact us via this</p>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="https://web.facebook.com/maduka.vivian.96" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="https://www.instagram.com/nikkyvee" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="http://wa.me/2348133347164" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                        </div>
-                    </div>
+                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->
+                    <!--            <h4>Our Social Networks</h4>-->
+                    <!--            <p>You can contact us via this</p>-->
+                    <!--            <div class="social-links mt-3">-->
+                    <!--              <a href="https://www.youtube.com/@Ekponomendie" class="twitter"><i class="bx bxl-youtube"></i></a>-->
+                    <!--              <a href="https://m.facebook.com/mendiee1/" class="facebook"><i class="bx bxl-facebook"></i></a>-->
+                    <!--              <a href="https://www.instagram.com/mendiee1/" class="instagram"><i class="bx bxl-instagram"></i></a>-->
+                    <!--              <a href="https://wa.link/aad9x2" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>-->
+                    <!--            </div>-->
+                    <!--          </div>-->
 
                 </div>
             </div>
@@ -673,7 +702,7 @@
 
         <div class="container footer-bottom clearfix">
             <div class="copyright">
-                &copy; Copyright <strong><span>Lelesco Enterprise</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Real Data Sub</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
@@ -681,16 +710,15 @@
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
                 Designed by <a href="https://bootstrapmade.com/">5starcompany</a>
-                Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
     <div id="preloader"></div>
     <div class="row">
 
-        <a href="http://wa.me/2348036711447" class="back-to-top d-flex align-items-center justify-content-center"><i class=" bi-whatsapp"></i></a>
+        <a href="https://wa.link/aad9x2" class="back-to-top d-flex align-items-center justify-content-center"><i class=" bi-whatsapp"></i></a>
     </div>
 
 

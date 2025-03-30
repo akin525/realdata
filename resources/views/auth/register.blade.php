@@ -36,7 +36,7 @@
                                 <center>
 
                                     <!-- Validation Errors -->
-                                    <x-auth-validation-errors class="alert-danger text-danger" :errors="$errors" />
+                                    <x-validation-errors class="alert-danger text-danger" :errors="$errors" />
                                 </center>
                                 <form method="POST" action="{{ route('register') }}">
                                     @csrf
@@ -100,7 +100,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="http://wa.me/2348036711447/?text=Goodday, My Username is....." class="float" target="_blank">
+    <a href="https://wa.link/aad9x2/?text=Goodday, My Username is....." class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 </div>
