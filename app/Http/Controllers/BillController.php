@@ -166,7 +166,7 @@ class BillController
     "network":"'.$request->id.'"
 }',
                     CURLOPT_HTTPHEADER => array(
-                        'x-api-key: SB.KEY3.5532838074845146e+43',
+                        'x-api-key: SB.KEY6.378677653035596e+43',
                         'Content-Type: application/json'
                     ),
                 ));
@@ -308,7 +308,7 @@ class BillController
     "refid":"'.$request->refid.'"
 }',
                 CURLOPT_HTTPHEADER => array(
-                    'x-api-key: SB.KEY3.5532838074845146e+43',
+                    'x-api-key: SB.KEY6.378677653035596e+43',
                     'Content-Type: application/json'
                 ),
             ));
