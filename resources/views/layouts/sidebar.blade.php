@@ -248,11 +248,11 @@
 
             </div>
             <ul class="metismenu" >
-                <li><a href="{{route('welcome')}}" class="ai-icon">
-                        <i class="flaticon-381-home"></i>
-                        <span class="nav-text">Homepage</span>
-                    </a>
-                </li>
+{{--                <li><a href="{{route('welcome')}}" class="ai-icon">--}}
+{{--                        <i class="flaticon-381-home"></i>--}}
+{{--                        <span class="nav-text">Homepage</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li><a href="{{route('dashboard')}}" class="ai-icon">
                         <i class="flaticon-144-layout"></i>
                         <span class="nav-text">Dashboard</span>
