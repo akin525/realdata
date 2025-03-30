@@ -15,35 +15,54 @@
                                     <br>
                                     <div class="alert alert-danger" id="ElectNote" style="text-transform: uppercase;font-weight: bold;font-size: 18px;display: none;">
                                     </div>
-                                    <div id="electPanel">
+                                    <div id="electPanel" class="subscribe">
                                         <div class="alert alert-danger">0.1% discount apply.</div>
-                                        <form action="{{route('verifye')}}" method="post">
+                                        <form  id="dataForm">
                                             @csrf
-                                            <div id="discotypeID" class="form-group">
-                                                <label for="discotypeID" class=" requiredField">
-                                                    Select Your Electricity
+                                            <div  class="form-group">
+                                                <label  class="requiredField">
+                                                    Select  Electricity Company
+                                                    <span class="asteriskField">*</span>
                                                 </label>
-                                                <div class="">
-                                                    <select name="network" class="text-success  form-control" required >
-                                                        @foreach($tv as $elect)
-                                                        <option value="{{$elect->id}}" selected>{{$elect->plan}}</option>
-                                                        @endforeach
-                                                    </select>
-                                                </div>
+                                                <select name="id" class="text-success form-control" id="firstSelect" required>
+                                                    <option selected="">---------</option>
+                                                    @foreach($tv as $tv1)
+                                                        <option value="{{$tv1['plan']}}">{{$tv1['plan']}}</option>
+                                                    @endforeach
+                                                </select>
                                             </div>
 
-                                            <label for="metertypeID" class=" requiredField">
-                                                Enter Meter Number
-                                                <span class="asteriskField">*</span>
-                                            </label>
-                                            <div class="">
-                                                <input class="form-control text-success" type="tel" placeholder="Enter Meter number" maxlength="11" minlength="9" id="tvphone" name="phone" value="" autocomplete="on" size="20" required="">
+
+                                            <div id="metertypeID" class="form-group">
+                                                <label for="metertypeID" class=" requiredField">
+                                                    Meter Number
+                                                    <span class="asteriskField">*</span>
+                                                </label>
+                                                <div class="">
+                                                    <input type="number" id="number" name="number" class="form-control" minlength="11" maxlength="11" required>
+                                                </div>
                                             </div>
+                                            <div class="form-group">
+                                                <label for="name1">Meter Name</label>
+                                                <input type="text" id="name" name="name" class="text-success form-control" readonly>
+
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="name1">Amount</label>
+                                                <input type="text" id="amount" name="amount" class="text-success form-control" required>
+                                                <input type="hidden" name="refid" value="<?php echo rand(10000000, 999999999); ?>">
+
+                                            </div>
+
+                                            <button type="submit" class="submit-btn"
+                                                    style="color: white;background-color: #13b10d;margin-bottom:15px;"> PayNow
+                                            </button>
+                                            <!--                        <button type="button" id="verify" class=" btn" style="margin-bottom:15px;">  <span id="process"><i class="fa fa-circle-o-notch fa-spin " style="font-size: 30px;animation-duration: 1s;"></i> Validating Please wait </span>  <span id="displaytext">Validate Meter Number </span></button>-->
+                                        </form>
                                     </div>
+
                                     {{--                                        <button id="btnv" type="button" onclick="showUser()" class="btn btn-rounded btn-success"> Verify </button>--}}
-                                    <button type="submit" class="btn mt-3"
-                                            style="color: white;background-color: #048047"> Continue </button>
-                                    </form>
+
                                 </div>
                             </div>
                             <div class="col-sm-4 ">
