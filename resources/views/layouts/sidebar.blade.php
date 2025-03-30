@@ -305,8 +305,8 @@
                 </li>
             </ul>
             <div class="copyright">
-                <p><strong>Lelescoenterprise Customer Dashboard</strong> © 2022 All Rights Reserved</p>
-                <p class="fs-12">Design<span class="heart"></span> by Lelescoenterprise</p>
+                <p><strong>RealDataSub Customer Dashboard</strong> © 2022 All Rights Reserved</p>
+                <p class="fs-12">Design<span class="heart"></span> by Real Data Sub</p>
             </div>
 
         </div>
@@ -337,7 +337,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="http:wa.me/2348036711447/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">
+    <a href="https://wa.link/aad9x2/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 
