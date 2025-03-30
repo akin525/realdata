@@ -60,10 +60,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('select', [AuthController::class, 'select'])->name('select');
     Route::get('listdata', [listdata::class, 'list'])->name('listdata');
     Route::get('listelect', [ElectController::class, 'listelect'])->name('listelect');
-    Route::get('listtv', [AlltvController::class, 'listtv'])->name('listtv');
+    Route::get('listtv/{id}', [BillController::class, 'listtv'])->name('listtv');
     Route::get('tv', [AlltvController::class, 'tv'])->name('tv');
     Route::post('tvp', [AlltvController::class, 'paytv'])->name('tvp');
-    Route::post('verifytv', [AlltvController::class, 'verifytv'])->name('verifytv');
+    Route::get('verifytv/{value1}/{value2}', [AlltvController::class, 'verfytv'])->name('verifytv');
     Route::get('airtime', [AuthController::class, 'airtime'])->name('airtime');
     Route::post('buyairtime', [BillController::class, 'bill'])->name('buyairtime');
     Route::post('data', [BillController::class, 'data'])->name('data');
