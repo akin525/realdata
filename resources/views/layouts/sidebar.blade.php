@@ -11,7 +11,7 @@
     <meta name="author" content="" />
     <meta name="robots" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta content="Lelescoenterprise | Buy data in a few clicks to keep surfing the internet. You can buy whatever size of data plan for whichever network you desire. All plans are topped-up to your specified number in seconds." name="description">
+    <meta content="Real Data Sub | Buy data in a few clicks to keep surfing the internet. You can buy whatever size of data plan for whichever network you desire. All plans are topped-up to your specified number in seconds." name="description">
     <meta property="og:image" content="https://lelescoenterprise.com.ng/images/dlog.jpeg" />
     <title>{{ Auth::user()->name }} Dashboard| Lelescoenterprise </title>
     <!-- Favicon icon -->
