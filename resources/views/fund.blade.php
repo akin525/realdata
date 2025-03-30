@@ -70,7 +70,7 @@
 
                                                         <label class="form-control">NGN</label>
                                                     </div>
-                                                    <input type="number" min="{{$data->len}}" maxlength="4" class="form-control" name="amount" id="amount" placeholder="00.00" required/>
+                                                    <input type="number"  class="form-control" name="amount" id="amount" placeholder="00.00" required/>
                                                 </div>
                                                 @endforeach
                                             </div>
