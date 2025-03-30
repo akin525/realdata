@@ -305,7 +305,7 @@
                 </li>
             </ul>
             <div class="copyright">
-                <p><strong>RealDataSub Customer Dashboard</strong> © 2022 All Rights Reserved</p>
+                <p><strong>RealDataSub Customer Dashboard</strong> © 2025 All Rights Reserved</p>
                 <p class="fs-12">Design<span class="heart"></span> by Real Data Sub</p>
             </div>
 
