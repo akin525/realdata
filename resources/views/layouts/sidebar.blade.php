@@ -11,7 +11,7 @@
     <meta name="author" content="" />
     <meta name="robots" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta content="Lelescoenterprise | Buy data in a few clicks to keep surfing the internet. You can buy whatever size of data plan for whichever network you desire. All plans are topped-up to your specified number in seconds." name="description">
+    <meta content="Real Data Sub | Buy data in a few clicks to keep surfing the internet. You can buy whatever size of data plan for whichever network you desire. All plans are topped-up to your specified number in seconds." name="description">
     <meta property="og:image" content="https://lelescoenterprise.com.ng/images/dlog.jpeg" />
     <title>{{ Auth::user()->name }} Dashboard| Lelescoenterprise </title>
     <!-- Favicon icon -->
@@ -248,11 +248,11 @@
 
             </div>
             <ul class="metismenu" >
-                <li><a href="{{route('welcome')}}" class="ai-icon">
-                        <i class="flaticon-381-home"></i>
-                        <span class="nav-text">Homepage</span>
-                    </a>
-                </li>
+{{--                <li><a href="{{route('welcome')}}" class="ai-icon">--}}
+{{--                        <i class="flaticon-381-home"></i>--}}
+{{--                        <span class="nav-text">Homepage</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li><a href="{{route('dashboard')}}" class="ai-icon">
                         <i class="flaticon-144-layout"></i>
                         <span class="nav-text">Dashboard</span>
@@ -305,8 +305,8 @@
                 </li>
             </ul>
             <div class="copyright">
-                <p><strong>Lelescoenterprise Customer Dashboard</strong> © 2022 All Rights Reserved</p>
-                <p class="fs-12">Design<span class="heart"></span> by Lelescoenterprise</p>
+                <p><strong>RealDataSub Customer Dashboard</strong> © 2025 All Rights Reserved</p>
+                <p class="fs-12">Design<span class="heart"></span> by Real Data Sub</p>
             </div>
 
         </div>
@@ -337,7 +337,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="http:wa.me/2348036711447/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">
+    <a href="https://wa.link/aad9x2/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 
