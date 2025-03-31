@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Favicons -->
-        <link href="{{asset('assets/img/logo1.png')}}"  rel="icon">
+        <link href="{{asset('images/dlog.jpeg')}}"  rel="icon">
         <link href="{{asset('assets/img/logo1.png')}}"  rel="apple-touch-icon">
 
         <!-- Google Fonts -->
