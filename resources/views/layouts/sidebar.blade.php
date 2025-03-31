@@ -58,7 +58,7 @@
         height: 0;
         border-left: 0px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid #208b37;
+        border-bottom: 10px solid #491110;
     }
 
     .subscribe p {
@@ -76,7 +76,7 @@
         border-radius: 30px;
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
-        background-color: #208b37;
+        background-color: #491110;
         color: #FFF;
         padding: 12px 25px;
         display: inline-block;
@@ -91,7 +91,7 @@
     }
 
     .subscribe .submit-btn:hover {
-        background-color: #208b37;
+        background-color: #491110;
         box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
     }
 </style>
