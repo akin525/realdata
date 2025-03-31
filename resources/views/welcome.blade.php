@@ -16,7 +16,7 @@
 
         <!-- Favicons -->
         <link href="{{asset('images/dlog.jpeg')}}"  rel="icon">
-        <link href="{{asset('assets/img/logo1.png')}}"  rel="apple-touch-icon">
+        <link href="{{asset('images/dlog.jpeg')}}"  rel="apple-touch-icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -40,7 +40,7 @@
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="{{route('welcome')}}"><img src="{{asset('assets/img/logo1.png')}}" class="img-fluid" alt=""></a></h1>
+            <h1 class="logo me-auto"><a href="{{route('welcome')}}"><img src="{{asset('images/dlog.jpeg')}}" class="img-fluid" alt=""></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo1.png" alt="" class="img-fluid"></a>-->
 
