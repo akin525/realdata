@@ -277,16 +277,16 @@
                             <i class="ri-phone-fill"></i> <span data-key="t-airtime">Airtime Controller</span>
                         </a>
                     </li> <!-- end Dashboard Menu -->
-                    <li class="nav-item">
-                        <a class="nav-link menu-link" href="{{route('admin/server')}}"   aria-controls="sidebarDashboards">
-                            <i class="ri-bar-chart-box-fill"></i> <span data-key="t-data">Data Controller</span>
-                        </a>
-                    </li> <!-- end Dashboard Menu -->
-                    <li class="nav-item">
-                        <a class="nav-link menu-link" href="{{route('admin/renotransaction')}}"   aria-controls="sidebarDashboards">
-                            <i class="ri-tv-2-fill"></i> <span data-key="t-data">RDS Transaction</span>
-                        </a>
-                    </li> <!-- end Dashboard Menu -->
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link menu-link" href="{{route('admin/server')}}"   aria-controls="sidebarDashboards">--}}
+{{--                            <i class="ri-bar-chart-box-fill"></i> <span data-key="t-data">Data Controller</span>--}}
+{{--                        </a>--}}
+{{--                    </li> <!-- end Dashboard Menu -->--}}
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link menu-link" href="{{route('admin/renotransaction')}}"   aria-controls="sidebarDashboards">--}}
+{{--                            <i class="ri-tv-2-fill"></i> <span data-key="t-data">RDS Transaction</span>--}}
+{{--                        </a>--}}
+{{--                    </li> <!-- end Dashboard Menu -->--}}
                     <li class="nav-item">
                         <a class="nav-link menu-link" href="{{route('admin/product')}}"   aria-controls="sidebarDashboards">
                             <i class="ri-shopping-cart-fill"></i> <span data-key="t-data">RDS Product</span>
@@ -317,11 +317,11 @@
                             <i class="ri-money-cny-box-fill"></i> <span data-key="t-data">Charge User</span>
                         </a>
                     </li> <!-- end Dashboard Menu -->
-                    <li class="nav-item">
-                        <a class="nav-link menu-link" href="{{route('admin/finds')}}"   aria-controls="sidebarDashboards">
-                            <i class="ri-account-box-fill"></i> <span data-key="t-data">Find User</span>
-                        </a>
-                    </li> <!-- end Dashboard Menu -->
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link menu-link" href="{{route('admin/finds')}}"   aria-controls="sidebarDashboards">--}}
+{{--                            <i class="ri-account-box-fill"></i> <span data-key="t-data">Find User</span>--}}
+{{--                        </a>--}}
+{{--                    </li> <!-- end Dashboard Menu -->--}}
                     <li class="nav-item">
                         <a class="nav-link menu-link" href="{{route('admin/finddeposite')}}"   aria-controls="sidebarDashboards">
                             <i class="ri-search-2-fill"></i> <span data-key="t-data">Find Deposit</span>
