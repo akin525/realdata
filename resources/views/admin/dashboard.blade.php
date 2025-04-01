@@ -49,8 +49,9 @@
                                     <h2 class="mb-0">9629191287</h2>
                                 </div>
                                 <div class="flex-grow-1 ms-1">
-                                    <P class="mb-0">NET Microfinance banks </P>
+                                    <P class="mb-0">Providus Bank </P>
                                 </div>
+                                <P> mendiee1 ekponabasi </P>
                             </div>
                     </div>
                         </center>
