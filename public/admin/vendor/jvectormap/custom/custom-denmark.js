@@ -11,7 +11,7 @@ $(function(){
 				"fill-opacity": 0.8
 			},
 			selected: {
-				fill: '#405189'
+				fill: '#4C2423'
 			},
 		},
 		backgroundColor: 'transparent',

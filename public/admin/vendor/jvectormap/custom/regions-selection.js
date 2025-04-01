@@ -47,7 +47,7 @@ $(function(){
 				fill: '#17995e'
 			},
 			selected: {
-				fill: '#405189'
+				fill: '#4C2423'
 			}
 		},
 		series: {

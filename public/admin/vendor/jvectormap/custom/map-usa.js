@@ -33,7 +33,7 @@ $(function(){
 		},
 		markerStyle: {
 			initial: {
-				fill: '#405189',
+				fill: '#4C2423',
 				stroke: '#FFFFFF',
 				r: 5
 			}
