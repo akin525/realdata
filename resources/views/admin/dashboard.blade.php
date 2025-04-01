@@ -32,7 +32,7 @@
                         <center>
                             <!--                    <h4 class="w3-text-green"><b>&nbsp;&nbsp; &nbsp;&nbsp; <a class="w3-btn w3-green w3-border w3-round-large" href="with.php">Withdraw From MCD Wallet</a>-->
                             <a class="badge badge-gradient-primary" href="{{route('admin/credit')}}">Credit User</a>
-                            <a class="badge badge-gradient-primary" href="#">Withdraw Reno Wallet</a>
+                            <a class="badge badge-gradient-primary" href="#">Withdraw Real Data Sub Wallet</a>
 
                             <a class="badge badge-gradient-primary" href="{{route('admin/credit')}}">Refund User</a>
                             <a class="badge badge-gradient-primary" href="{{route('admin/charge')}}">Charge User</a>
@@ -247,7 +247,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="flex-grow-1">
-                                <p class="text-uppercase fw-medium text-white-50 mb-0">Savebills Balance</p>
+                                <p class="text-uppercase fw-medium text-white-50 mb-0">OUTTER Balance</p>
                             </div>
                             <div class="flex-shrink-0">
                                 <h5 class="text-warning fs-14 mb-0">
