@@ -50,7 +50,7 @@
                                             <h2 class="mb-0">9629191287</h2>
                                         </div>
                                     <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0">NET Microfinance banks </h2>
+                                        <P class="mb-0">NET Microfinance banks </P>
                                     </div>
                                     </div>
                                 </div>
