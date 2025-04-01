@@ -62,7 +62,7 @@ public function dashboard(Request $request)
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://renomobilemoney.com/api/dashboard',
+            CURLOPT_URL => 'https://api.savebills.com.ng/api/auth/dashboard',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -71,7 +71,7 @@ public function dashboard(Request $request)
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'GET',
             CURLOPT_HTTPHEADER => array(
-                'apikey: RENO-62e2e0e9105fe6.46494398'
+                'x-api-key: SB.KEY6.378677653035596e+43'
             ),
         ));
 
@@ -83,8 +83,8 @@ public function dashboard(Request $request)
 //                                                        return $response;
         $data = json_decode($response, true);
 //        $success = $data["success"];
-        $tran = $data["wallet"][0]['balance'];
-        $pa = $data["me"];
+        $tran = $data["data"]['wallet'];
+        $pa = $data["data"]['wallet'];
         $today = Carbon::now()->format('Y-m-d');
 
 

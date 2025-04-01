@@ -14,64 +14,29 @@
     <link rel="shortcut icon" href="https://realinstant.com.ng/fd.jpg">
 
     <!-- jsvectormap css -->
-    <link href="{{asset('assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css" />
 
     <!--Swiper slider css-->
-    <link href="{{asset('assets/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet" type="text/css" />
 
     <!-- Layout config Js -->
-    <script src="{{asset('assets/js/layout.js')}}"></script>
+    <script src="{{asset('admin/assets/js/layout.js')}}"></script>
     <!-- Bootstrap Css -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
-    <link href="{{asset('assets/css/custom.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/assets/css/custom.min.css')}}" rel="stylesheet" type="text/css" />
 
 
-    <link href="{{asset('assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css')}}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/extra-libs/multicheck/multicheck.css')}}">
+    <link href="{{asset('admin/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/assets/extra-libs/multicheck/multicheck.css')}}">
 </head>
 
 <body>
-<style>
-    .preloader
-    {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #fff;
-        z-index: 9999;
-        text-align: center;
-    }
-    .preloader-icon
-    {
-        position: relative;
-        top: 45%;
-        width: 100px;
-        border-radius: 50%;
-        animation: shake 1.5s infinite;
-    }
-    @keyframes shake
-    {
-        0% { transform: translate(1px, -1px) rotate(0deg);}
-        10% { transform: translate(1px, -3px) rotate(-1deg);}
-        20% { transform: translate(1px, -5px) rotate(-3deg);}
-        30% { transform: translate(1px, -7px) rotate(0deg);}
-        40% { transform: translate(1px, -9px) rotate(1deg);}
-        50% { transform: translate(1px, -11px) rotate(3deg);}
-        60% { transform: translate(1px, -9px) rotate(0deg);}
-        70% { transform: translate(1px, -7px) rotate(-1deg);}
-        80% { transform: translate(1px, -5px) rotate(-3deg);}
-        90% { transform: translate(1px, -3px) rotate(0deg);}
-        100% { transform: translate(1px, -1px) rotate(-1deg);}
-    }
-</style>
-<div class="preloader"> <img class="preloader-icon" src="{{asset('gp.gif')}}" alt="My Site Preloader"> </div>
+
 @include('sweetalert::alert')
 <!-- Begin page -->
 <div id="layout-wrapper">
@@ -253,11 +218,11 @@
             <!-- Dark Logo-->
             <a href="{{route('dashboard')}}" class="logo logo-dark">
                     <span class="logo-sm">
-                        <h4 class="text-capitalize text-white"><b>Sollyinstantawoof</b></h4>
+                        <h4 class="text-capitalize text-white"><b>Amin Dashboard</b></h4>
 {{--                        <img src="{{asset('sam.png')}}" alt="" width="150" >--}}
                     </span>
                 <span class="logo-lg">
-                    <h4 class="text-capitalize text-white"><b>Sollyinstantawoof</b></h4>
+                    <h4 class="text-capitalize text-white"><b>Admin Dashboard</b></h4>
 
 {{--                        <img src="{{asset('sam.png')}}" alt="" width="150" >--}}
                     </span>
@@ -265,13 +230,13 @@
             <!-- Light Logo-->
             <a href="{{route('dashboard')}}" class="logo logo-light">
                     <span class="logo-sm">
-                        <h4 class="text-capitalize text-white"><b>Sollyinstantawoof</b></h4>
+                        <h4 class="text-capitalize text-white"><b>Admin Dashboard</b></h4>
 
 {{--                        <img src="{{asset('sam.png')}}" alt="" width="150">--}}
                     </span>
                 <span class="logo-lg">
 {{--                        <img src="{{asset('sam.png')}}" alt="" width="150">--}}
-                    <h4 class="text-capitalize text-white"><b>Sollyinstantawoof</b></h4>
+                    <h4 class="text-capitalize text-white"><b>Admin Dashboard</b></h4>
 
                     </span>
             </a>
@@ -385,28 +350,28 @@
 
 
         <!-- JAVASCRIPT -->
-        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-        <script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
-        <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
-        <script src="{{asset('assets/js/pages/plugins/lord-icon-2.1.0.js')}}"></script>
-        <script src="{{asset('assets/js/plugins.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/node-waves/waves.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/feather-icons/feather.min.js')}}"></script>
+        <script src="{{asset('admin/assets/js/pages/plugins/lord-icon-2.1.0.js')}}"></script>
+        <script src="{{asset('admin/assets/js/plugins.js')}}"></script>
 
         <!-- apexcharts -->
-        <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
         <!-- Vector map-->
-        <script src="{{asset('assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
-        <script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
         <!--Swiper slider js-->
-        <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
+        <script src="{{asset('admin/assets/libs/swiper/swiper-bundle.min.js')}}"></script>
 
         <!-- Dashboard init -->
-        <script src="{{asset('assets/js/pages/dashboard-ecommerce.init.js')}}"></script>
+        <script src="{{asset('admin/assets/js/pages/dashboard-ecommerce.init.js')}}"></script>
 
         <!-- App js -->
-        <script src="{{asset('assets/js/app.js')}}"></script>
+        <script src="{{asset('admin/assets/js/app.js')}}"></script>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
@@ -433,13 +398,7 @@
                 margin-top:16px;
             }
         </style>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-{{--        <a href="http:wa.me/2348034547657/?text=Goodday, My Username is....." class="float" target="_blank">--}}
-{{--            <i class="fa fa-whatsapp my-float"></i>--}}
-{{--        </a>--}}
-        <script>
-            window.onload = function(){ document.querySelector(".preloader").style.display = "none"; }
-        </script>
+
 </body>
 
 

@@ -147,4 +147,4 @@
     </div>
 @endif
 <!-- end row -->
-@include('layouts.footer')
+

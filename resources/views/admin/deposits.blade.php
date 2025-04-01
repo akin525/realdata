@@ -1,4 +1,6 @@
 @include('admin.layouts.sidebar')
+@vite(['resources/css/app.css', 'resources/js/app.js'])
+
 <div class="page-content">
     <div class="container-fluid">
 
@@ -310,4 +312,4 @@
     <!-- end col -->
 </div>
 <!-- end row -->
-@include('layouts.footer')
+

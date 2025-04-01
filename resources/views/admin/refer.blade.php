@@ -38,4 +38,4 @@
     </div>
 </div>
 <br>
-@include('layouts.footer')
+

@@ -72,4 +72,4 @@
      ****************************************/
     $('#zero_config').DataTable();
 </script>
-@include('layouts.footer')
+

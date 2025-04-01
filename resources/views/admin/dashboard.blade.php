@@ -24,23 +24,6 @@
 <div class="midde_cont">
     <div class="container-fluid">
         <!--end row-->
-        <div class="alert alert-primary alert-dismissible alert-additional fade show" role="alert">
-            <div c9lass="alert-body">
-                {{--                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>--}}
-                <div class="d-flex">
-                    <div class="flex-shrink-0 me-3">
-                        <i class="ri-bell-fill fs-16 align-middle"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h5 class="alert-heading">Renomobilemoney Notification!  !</h5>
-                        <p class="mb-0">Alway read & check notice after logged in</p>
-                    </div>
-                </div>
-            </div>
-            <div class="alert-content">
-                <p class="mb-0">{{$pa['message']}}.</p>
-            </div>
-        </div>
 
         <div class="card">
             <div class="card-body">
@@ -264,7 +247,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="flex-grow-1">
-                                <p class="text-uppercase fw-medium text-white-50 mb-0">Renomobilemoney Balance</p>
+                                <p class="text-uppercase fw-medium text-white-50 mb-0">Savebills Balance</p>
                             </div>
                             <div class="flex-shrink-0">
                                 <h5 class="text-warning fs-14 mb-0">
@@ -445,4 +428,3 @@
      ****************************************/
     $('#zero_config').DataTable();
 </script>
-@include('layouts.footer')

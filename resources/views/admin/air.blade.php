@@ -85,4 +85,4 @@
         <!-- end col -->
     </div>
     <!-- end row -->
-@include('layouts.footer')
+

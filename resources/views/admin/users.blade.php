@@ -1,5 +1,6 @@
 @include('admin.layouts.sidebar')
-<link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 <div class="page-content">
     <div class="container-fluid">
 
@@ -155,4 +156,4 @@
         <!-- end col -->
     </div>
     <!-- end row -->
-@include('layouts.footer')
+
