@@ -284,12 +284,12 @@
                     </li> <!-- end Dashboard Menu -->
                     <li class="nav-item">
                         <a class="nav-link menu-link" href="{{route('admin/renotransaction')}}"   aria-controls="sidebarDashboards">
-                            <i class="ri-tv-2-fill"></i> <span data-key="t-data">RSB Transaction</span>
+                            <i class="ri-tv-2-fill"></i> <span data-key="t-data">RDS Transaction</span>
                         </a>
                     </li> <!-- end Dashboard Menu -->
                     <li class="nav-item">
                         <a class="nav-link menu-link" href="{{route('admin/product')}}"   aria-controls="sidebarDashboards">
-                            <i class="ri-shopping-cart-fill"></i> <span data-key="t-data">RSB Product</span>
+                            <i class="ri-shopping-cart-fill"></i> <span data-key="t-data">RDS Product</span>
                         </a>
                     </li> <!-- end Dashboard Menu -->
                     <li class="nav-item">
