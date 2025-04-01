@@ -39,22 +39,20 @@
 
                             <!--                            <a class="w3-btn w3-green w3-border w3-round-large" href="method.php">All Payment Method</a>-->
 
-                            <div class="col col-lg border-end">
-                                <div class="mt-3 mt-md-0 py-4 px-3">
-                                    <h5 class="text-muted text-uppercase fs-13">ACCOUNT NUMBER <i class=" text-success fs-18 float-end align-middle"></i></h5>
-{{--                                    <div class="d-flex align-items-center">--}}
-{{--                                        <div class="flex-shrink-0">--}}
-{{--                                            <i class="ri-account-box-fill display-6 text-muted"></i>--}}
-{{--                                        </div>--}}
-                                        <div class="flex-grow-1 ms-3">
-                                            <h2 class="mb-0">9629191287</h2>
-                                        </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <P class="mb-0">NET Microfinance banks </P>
-                                    </div>
-                                    </div>
+                            <div class="mt-3 mt-md-0 py-4 px-3">
+                                <h5 class="text-muted text-uppercase fs-13">ACCOUNT NUMBER <i class=" text-success fs-18 float-end align-middle"></i></h5>
+                                {{--                                    <div class="d-flex align-items-center">--}}
+                                {{--                                        <div class="flex-shrink-0">--}}
+                                {{--                                            <i class="ri-account-box-fill display-6 text-muted"></i>--}}
+                                {{--                                        </div>--}}
+                                <div class="flex-grow-1 ms-3">
+                                    <h2 class="mb-0">9629191287</h2>
+                                </div>
+                                <div class="flex-grow-1 ms-1">
+                                    <P class="mb-0">NET Microfinance banks </P>
                                 </div>
                             </div>
+                    </div>
                         </center>
                     </div>
                     </b></h4>  	</div>
