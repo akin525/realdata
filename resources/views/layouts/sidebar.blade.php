@@ -307,7 +307,7 @@
                 </li>
                 <li><a href="{{route('invoice')}}" class="ai-icon" aria-expanded="false">
                         <i class="flaticon-381-book"></i>
-                        <span class="nav-text">Invoice</span>
+                        <span class="nav-text">Transaction History</span>
                     </a>
                 </li>
             </ul>
@@ -344,43 +344,9 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.link/aad9x2/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{{--    <a href="https://wa.link/aad9x2/?text=Goodday, My Username is {{Auth::user()->username}}" class="float" target="_blank">--}}
+{{--        <i class="fa fa-whatsapp my-float"></i>--}}
+{{--    </a>--}}
 
 
     <script src="{{asset('vendor/global/global.min.js')}}"></script>
