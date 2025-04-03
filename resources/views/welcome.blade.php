@@ -413,7 +413,7 @@
                                 @endforeach
 
                             </ul>
-                            <a href="{{route('buydata')}}" class="buy-btn">Get Started</a>
+                            <a href="{{ route('login') }}" class="buy-btn">Get Started</a>
                         </div>
                     </div>
 
@@ -426,7 +426,7 @@
                                 <li><i class="bx bx-check"></i> {{$g->plan}}  for   #{{$g->tamount}}</li>
                                 @endforeach
                             </ul>
-                            <a href="{{route('buydata')}}" class="buy-btn">Get Started</a>
+                            <a href="{{ route('login') }}" class="buy-btn">Get Started</a>
                         </div>
                     </div>
 
@@ -439,7 +439,7 @@
                                 <li><i class="bx bx-check"></i> {{$go->plan}}   for   #{{$go->tamount}}</li>
                                 @endforeach
                             </ul>
-                            <a href="{{route('buydata')}}" class="buy-btn">Get Started</a>
+                            <a href="{{ route('login') }}" class="buy-btn">Get Started</a>
                         </div>
                     </div>
 
@@ -453,7 +453,7 @@
                                 @endforeach
 
                             </ul>
-                            <a href="{{route('buydata')}}" class="buy-btn">Get Started</a>
+                            <a href="{{ route('login') }}" class="buy-btn">Get Started</a>
                         </div>
                     </div>
 
