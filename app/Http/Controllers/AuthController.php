@@ -95,10 +95,18 @@ $input= $request->all();
     public function welcome(Request $request)
     {
 
-        $mtn = data::where(['status'=> 1 ])->where('network', 'mtn-data')->skip(0)->take(6)->get();
-        $glo = data::where(['status'=> 1 ])->where('network', 'glo-data')->skip(0)->take(6)->get();
-        $eti = data::where(['status'=> 1 ])->where('network', 'etisalat-data')->skip(0)->take(6)->get();
-        $airtel = data::where(['status'=> 1 ])->where('network', 'airtel-data')->skip(0)->take(6)->get();
+        $mtn = savebills::where(['status'=> 1 ])->where('network', 'MTN')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $glo = savebills::where(['status'=> 1 ])->where('network', 'GLO')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $eti = savebills::where(['status'=> 1 ])->where('network', '9MOBILE')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $airtel = savebills::where(['status'=> 1 ])->where('network', 'AITRTEL')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
 
 //return $mtn;
         return view('welcome', compact('mtn', 'glo', 'eti', 'airtel'));
