@@ -111,6 +111,25 @@ $input= $request->all();
 //return $mtn;
         return view('welcome', compact('mtn', 'glo', 'eti', 'airtel'));
     }
+    public function priceload(Request $request)
+    {
+
+        $mtn = savebills::where(['status'=> 1 ])->where('network', 'MTN')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $glo = savebills::where(['status'=> 1 ])->where('network', 'GLO')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $eti = savebills::where(['status'=> 1 ])->where('network', '9MOBILE')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+        $airtel = savebills::where(['status'=> 1 ])->where('network', 'AIRTEL')
+            ->where('server', 10)
+            ->skip(0)->take(6)->get();
+
+//return $mtn;
+        return view('price', compact('mtn', 'glo', 'eti', 'airtel'));
+    }
 //return redirect("login")->withSuccess('You are not allowed to access');
     public function customLogin(Request $request)
     {

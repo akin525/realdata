@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta content="Real Data Sub | Buy data in a few clicks to keep surfing the internet. You can buy whatever size of data plan for whichever network you desire. All plans are topped-up to your specified number in seconds." name="description">
     <meta property="og:image" content="https://lelescoenterprise.com.ng/images/dlog.jpeg" />
-    <title>{{ Auth::user()->name }} Dashboard| Lelescoenterprise </title>
+    <title>{{ Auth::user()->name }} Dashboard| RealdataSub </title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="https://lelescoenterprise.com.ng/images/dlog.jpeg">
     <link rel="stylesheet" href="{{asset('vendor/chartist/css/chartist.min.css')}}">
@@ -308,6 +308,11 @@
                 <li><a href="{{route('invoice')}}" class="ai-icon" aria-expanded="false">
                         <i class="flaticon-381-book"></i>
                         <span class="nav-text">Transaction History</span>
+                    </a>
+                </li>
+                <li><a href="{{route('price')}}" class="ai-icon" aria-expanded="false">
+                        <i class="flaticon-381-book"></i>
+                        <span class="nav-text">Price</span>
                     </a>
                 </li>
             </ul>
