@@ -104,7 +104,7 @@ $input= $request->all();
         $eti = savebills::where(['status'=> 1 ])->where('network', '9MOBILE')
             ->where('server', 10)
             ->skip(0)->take(6)->get();
-        $airtel = savebills::where(['status'=> 1 ])->where('network', 'AITRTEL')
+        $airtel = savebills::where(['status'=> 1 ])->where('network', 'AIRTEL')
             ->where('server', 10)
             ->skip(0)->take(6)->get();
 
