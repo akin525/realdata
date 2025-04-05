@@ -5,6 +5,7 @@ namespace app\Http\Controllers\admin;
 use App\Models\airtimecon;
 use App\Models\big;
 use App\Models\data;
+use App\Models\savebills;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -12,19 +13,19 @@ class ProductController
 {
 public function index()
 {
-    $product=data::paginate(50);
+    $product=savebills::paginate(50);
 
     return view('admin/product', compact('product'));
 }
     public function index1()
     {
-        $product=big::paginate(50);
+        $product=savebills::paginate(50);
 
         return view('admin/product1', compact('product'));
     }
 public function on(Request $request)
 {
-    $product = data::where('id', $request->id)->first();
+    $product = savebills::where('id', $request->id)->first();
 
     if ($product->status == "1") {
         $give = "0";
@@ -55,7 +56,7 @@ public function on(Request $request)
 public function in(Request $request)
 {
 
-    $pro=data::where('id', $request->id)->first();
+    $pro=savebills::where('id', $request->id)->first();
 
 return view('admin/editproduct', compact('pro'));
 }
@@ -75,7 +76,7 @@ public function edit(Request $request)
         'ramount' => 'required',
         'name' => 'required',
     ]);
-    $pro=data::where('id', $request->id)->first();
+    $pro=savebills::where('id', $request->id)->first();
     $pro->plan=$request->name;
     $pro->amount=$request->amount;
     $pro->tamount=$request->tamount;

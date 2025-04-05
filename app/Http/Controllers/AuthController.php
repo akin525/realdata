@@ -9,6 +9,7 @@ use App\Models\data;
 use App\Models\deposit;
 use App\Models\Messages;
 use App\Models\refer;
+use App\Models\savebills;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -46,6 +47,19 @@ class AuthController
             Alert::success('Success', 'New Password has been sent to your email');
             return redirect('forgot-password')->with('success', 'New Password has been sent to your email');
         }
+    }
+
+    public function redata(Request  $request, $selectedValue, $category)
+    {
+            $data=savebills::where('server', 10)
+                ->where('status', 1)
+                ->where('network', $category)
+                ->where('category', $selectedValue)->get();
+//            $data = data::where(['status' => 1])->where('network', $selectedValue)->get();
+
+            return response()->json($data);
+
+
     }
 
     public function updatepa(Request $request)

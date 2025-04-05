@@ -75,7 +75,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('buyairtime', [BillController::class, 'bill'])->name('buyairtime');
     Route::post('data', [BillController::class, 'data'])->name('data');
     Route::post('buydata', [AuthController::class, 'buydata'])->name('buydata');
-    Route::get('redata/{data}', [BillController::class, 'listdata'])->name('redata');
+    Route::get('redata/{selectedValue}/{category}', [AuthController::class, 'redata'])->name('redata');
     Route::post('pre', [AuthController::class, 'pre'])->name('pre');
     Route::post('bill', [BillController::class, 'bill'])->name('bill');
     Route::post('billdata', [BillController::class, 'data'])->name('billdata');

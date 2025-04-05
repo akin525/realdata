@@ -6,6 +6,7 @@ use App\Models\bo;
 use App\Models\data;
 use App\Models\deposit;
 use App\Models\profit;
+use App\Models\savebills;
 use App\Models\setting;
 use App\Models\User;
 use App\Models\wallet;
@@ -233,31 +234,7 @@ class BillController
         ]);
         $user = User::find($request->user()->id);
 //            $wallet = wallet::where('username', $user->username)->first();
-
-        $curl = curl_init();
-
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://api.savebills.com.ng/api/auth/singledata',
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => '',
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS =>'{
-    "id":"'.$request->productid.'"
-}',
-            CURLOPT_HTTPHEADER => array(
-                'Content-Type: application/json'
-            ),
-        ));
-
-        $response = curl_exec($curl);
-
-        curl_close($curl);
-        $all= json_decode($response, true);
-        $bab=$all['data'];
+        $bab=savebills::where('id', $request->productid)->first();
         $system_amount=$bab['tamount'];
 //        return response()->json($system_amount, Response::HTTP_BAD_REQUEST);
 

@@ -99,44 +99,37 @@
         $(document).ready(function() {
             $('#firstSelect').change(function() {
                 var selectedValue = $(this).val();
-                var category = $('#firstSelect1').val();
-
+                var category = $('#firstSelect1').val()
                 // Show the loading spinner
                 $('#loadingSpinner').show();
-
                 // Send the selected value to the '/getOptions' route
                 $.ajax({
-                    url: '{{ url('redata') }}/' + category,
+                    url: '{{ url('redata') }}/' + selectedValue +'/' +category,
                     type: 'GET',
                     success: function(response) {
-                        // Hide the loading spinner
-                        $('#loadingSpinner').hide();
-
                         // Handle the successful response
                         var secondSelect = $('#secondSelect');
+                        $('#loadingSpinner').hide();
+                        // Clear the existing options
                         secondSelect.empty();
 
-                        if (response.plan && Array.isArray(response.plan)) {
-                            // Append the received options to the second select box
-                            $.each(response.plan, function(index, option) {
-                                secondSelect.append('<option value="' + option.id + '">' + option.plan + ' --₦' + option.tamount + '</option>');
-                            });
+                        // Append the received options to the second select box
+                        $.each(response, function(index, option) {
+                            secondSelect.append('<option  value="' + option.id + '">' +category+'-'+ option.plan +  ' --₦' +  option.tamount + '</option>');
+                        });
 
-                            // Select the desired value dynamically (if needed)
-                            var desiredValue = '43'; // Example: Set this dynamically if needed
-                            secondSelect.val(desiredValue);
-                        } else {
-                            console.log("Invalid response format:", response);
-                        }
+                        // Select the desired value dynamically
+                        var desiredValue = 'value2'; // Set the desired value here
+                        secondSelect.val(desiredValue);
                     },
                     error: function(xhr) {
                         // Handle any errors
-                        $('#loadingSpinner').hide();
                         console.log(xhr.responseText);
                     }
                 });
             });
         });
+
     </script>
     <script>
         $(document).ready(function() {
