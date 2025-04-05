@@ -26,6 +26,7 @@
                             <option value="AIRTEL">AIRTEL</option>
                             <option value="GLO">GLO</option>
                             <option value="9MOBILE">9MOBILE</option>
+                            <option value="SPECIAL">SPECIAL</option>
                         </select>
                     </div>
                     <br/>
