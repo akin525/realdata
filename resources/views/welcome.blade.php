@@ -123,7 +123,7 @@
 {{--                    </div>--}}
 
 {{--                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">--}}
-{{--                        <img src="{{asset('assets/img/cable-tv.png')}}" class="img-fluid" alt="">--}}
+{{--                    rrr    <img src="{{asset('assets/img/cable-tv.png')}}" class="img-fluid" alt="">--}}
 {{--                    </div>--}}
 
                 </div>
