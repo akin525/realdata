@@ -14433,7 +14433,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       [data-theme-version="dark"] .chatbox .img_cont.success {
         background: rgba(104, 207, 41, 0.1); }
     .chatbox .img_cont.info {
-      background: #FFFDD0;
+      background: #f0ebeb;
       color: #094D8C5; }
       [data-theme-version="dark"] .chatbox .img_cont.info {
         background: rgba(81, 166, 245, 0.1); }
@@ -20740,8 +20740,8 @@ input[type="checkbox"]:checked:after {
   height: 28px; }
 
 .checkbox-info .custom-control-label::before {
-  background-color: #FFFDD0;
-  border-color: #FFFDD0; }
+  background-color: #f0ebeb;
+  border-color: #f0ebeb; }
   [data-theme-version="dark"] .checkbox-info .custom-control-label::before {
     background-color: rgba(81, 166, 245, 0.1);
     border-color: transparent; }
@@ -22328,8 +22328,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     border-color: rgba(255, 76, 65, 0.1); }
 
 .alert-info {
-  background: #FFFDD0;
-  border-color: #FFFDD0;
+  background: #f0ebeb;
+  border-color: #f0ebeb;
   color: #094D8C5; }
   [data-theme-version="dark"] .alert-info {
     background: rgba(81, 166, 245, 0.1);
@@ -22628,7 +22628,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     background-color: rgba(104, 207, 41, 0.1); }
 
 .light.badge-info {
-  background-color: #FFFDD0;
+  background-color: #f0ebeb;
   color: #094D8C5; }
   [data-theme-version="dark"] .light.badge-info {
     background-color: rgba(81, 166, 245, 0.1); }
@@ -22827,8 +22827,8 @@ button {
     .light.btn-success:hover g [fill] {
       fill: #fff; }
 .light.btn-info {
-  background-color: #FFFDD0;
-  border-color: #FFFDD0;
+  background-color: #f0ebeb;
+  border-color: #f0ebeb;
   color: #094D8C5; }
   .light.btn-info g [fill] {
     fill: #094D8C5; }
@@ -23026,8 +23026,8 @@ button {
     .btn.tp-btn-light.btn-info g [fill] {
       fill: #094D8C5; }
     .btn.tp-btn-light.btn-info:hover {
-      background-color: #FFFDD0;
-      border-color: #FFFDD0;
+      background-color: #f0ebeb;
+      border-color: #f0ebeb;
       color: #094D8C5; }
       .btn.tp-btn-light.btn-info:hover g [fill] {
         fill: #094D8C5; }
@@ -24105,8 +24105,8 @@ code {
     [data-theme-version="dark"] .pagination-danger .page-item:hover .page-link, [data-theme-version="dark"] .pagination-danger .page-item.active .page-link {
       color: #fff; }
   .pagination-info .page-item .page-link {
-    background: #FFFDD0;
-    border-color: #FFFDD0;
+    background: #f0ebeb;
+    border-color: #f0ebeb;
     color: #094D8C5; }
     [data-theme-version="dark"] .pagination-info .page-item .page-link {
       background: rgba(81, 166, 245, 0.1);
@@ -24694,15 +24694,15 @@ code {
       background-color: rgba(255, 76, 65, 0.1);
       border-color: transparent; }
 .widget-timeline .timeline-badge.info {
-  border-color: #FFFDD0; }
+  border-color: #f0ebeb; }
   [data-theme-version="dark"] .widget-timeline .timeline-badge.info {
     border-color: rgba(81, 166, 245, 0.1); }
   .widget-timeline .timeline-badge.info:after {
     background-color: #5B0E0C !important;
     box-shadow: 0 5px 10px 0 rgba(81, 166, 245, 0.2); }
   .widget-timeline .timeline-badge.info + .timeline-panel {
-    background: #FFFDD0;
-    border-color: #FFFDD0; }
+    background: #f0ebeb;
+    border-color: #f0ebeb; }
     [data-theme-version="dark"] .widget-timeline .timeline-badge.info + .timeline-panel {
       background-color: rgba(81, 166, 245, 0.1);
       border-color: transparent; }
@@ -24964,8 +24964,8 @@ code {
     border-color: rgba(255, 76, 65, 0.1); }
 
 .bgl-info {
-  background: #FFFDD0;
-  border-color: #FFFDD0; }
+  background: #f0ebeb;
+  border-color: #f0ebeb; }
   [data-theme-version="dark"] .bgl-info {
     background-color: rgba(81, 166, 245, 0.1);
     border-color: rgba(81, 166, 245, 0.1); }
@@ -25294,7 +25294,7 @@ code {
       [data-theme-version="dark"] .widget-media .timeline .timeline-panel .media-primary {
         background-color: var(--rgba-primary-1); }
     .widget-media .timeline .timeline-panel .media-info {
-      background: #FFFDD0;
+      background: #f0ebeb;
       color: #094D8C5; }
       [data-theme-version="dark"] .widget-media .timeline .timeline-panel .media-info {
         background-color: rgba(81, 166, 245, 0.1); }
@@ -25487,7 +25487,7 @@ code {
     background-color: rgba(104, 207, 41, 0.1); }
 
 .table-info, .table-info > th, .table-info > td {
-  background-color: #FFFDD0;
+  background-color: #f0ebeb;
   color: #094D8C5; }
   [data-theme-version="dark"] .table-info,
   [data-theme-version="dark"] .table-info > th,

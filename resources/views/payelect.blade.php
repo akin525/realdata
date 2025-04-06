@@ -55,7 +55,7 @@
                                                 <input type="hidden" name="refid" value="<?php echo rand(10000000, 999999999); ?>">
 
                                                 <button type="submit" class="btn process"
-                                                        style="color: white;background-color: #13b10d;margin-bottom:15px;"> Purchase
+                                                        style="color: white;background-color: #491110;margin-bottom:15px;"> Purchase
                                                 </button>
                                                 <!--                        <button type="button" id="verify" class=" btn" style="margin-bottom:15px;">  <span id="process"><i class="fa fa-circle-o-notch fa-spin " style="font-size: 30px;animation-duration: 1s;"></i> Validating Please wait </span>  <span id="displaytext">Validate Meter Number </span></button>-->
                                             </form>

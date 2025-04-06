@@ -55,7 +55,7 @@
                                             </div>
 
                                             <button type="submit" class="submit-btn"
-                                                    style="color: white;background-color: #13b10d;margin-bottom:15px;"> PayNow
+                                                    style="color: white;background-color: #491110;margin-bottom:15px;"> PayNow
                                             </button>
                                             <!--                        <button type="button" id="verify" class=" btn" style="margin-bottom:15px;">  <span id="process"><i class="fa fa-circle-o-notch fa-spin " style="font-size: 30px;animation-duration: 1s;"></i> Validating Please wait </span>  <span id="displaytext">Validate Meter Number </span></button>-->
                                         </form>
