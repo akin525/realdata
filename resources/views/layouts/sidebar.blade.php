@@ -280,6 +280,11 @@
                         <span class="nav-text">Fund Wallet</span>
                     </a>
                 </li>
+                <li><a class="ai-icon" href="{{route('fund')}}" aria-expanded="false">
+                        <i class="flaticon-008-credit-card"></i>
+                        <span class="nav-text">Upgrade</span>
+                    </a>
+                </li>
                 <li class="nav-label">Products</li>
                 <li><a class="ai-icon" href="{{route('airtime')}}" aria-expanded="false">
                         <i class="flaticon-136-phone-call"></i>
