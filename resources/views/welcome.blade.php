@@ -152,7 +152,9 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            Certain things are hard 😓 but making payments shouldn't be one of them 😋💗. Real Data Sub helps you make payments for services you enjoy right from the comfort of your home or office. The experience of total convenience,fast service delivery and easy payment is just at your fingertips.
+                            Certain things might be hard to get done, but with the Real Data Sub platform, making payments or subscribing data on your gadgets shouldn't be one of those.
+
+                            So, Real Data Sub helps you to make payments for services you enjoy right from the comfort of your home or offices. The experience of total convenience, fast service delivery and easy funding processes are just at your fingertips.
                         </p>
                         <a href="#" class="btn-learn-more">Learn More</a>
                     </div>
