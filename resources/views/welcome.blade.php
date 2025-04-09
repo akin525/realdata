@@ -154,7 +154,7 @@
                         <p>
                             Certain things might be hard to get done, but with the Real Data Sub platform, making payments or subscribing data on your gadgets shouldn't be one of those.
 
-                            So, Real Data Sub helps you to make payments for services you enjoy right from the comfort of your home or offices. The experience of total convenience, fast service delivery and easy funding processes are just at your fingertips.
+                            So, Real Data Sub helps you to make payments for services you enjoy right from the comfort of your home or offices. The experience of total convenience, fast service delivery and easy funding processes are just at your fingertips.
                         </p>
                         <a href="#" class="btn-learn-more">Learn More</a>
                     </div>
@@ -177,7 +177,11 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                         <h3>About Real Data Sub</h3>
                         <p class="fst-italic">
-                            With Real Data Sub, you can purchase your airtime, data, electricity bills and TV subscription with just the click of a button, all by yourself, seamlessly and without stress. We operate a 24/7 days support system with prompt response to any complains or suggestion from our esteemed clients.
+                            With Real Data Sub, you can purchase airtime, subscribe data to your phones or laptops, pay electricity bills and then again pay for your CableTV subscriptions seamlessly all by yourself with just the click of a button.
+
+                            We're 24/7 functional and our Customer Support Systems are prompt to response to any complaints or suggestions you may think of.
+
+                            Thank you for joining us.
                         </p>
 
                         <div class="skills-content">
@@ -224,7 +228,9 @@
 
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and more...</p>
+                    <p>We offer instant recharge of Airtime, purchase of Data Bundles, CableTV Subscriptions such as: DStv, GOtv, Startimes and etc, Electricity Bill Payment and much more...
+
+                        Just sigh up and take a look at our low prices.</p>
                 </div>
 
                 <div class="row">
@@ -232,7 +238,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4><a href="">Airtime</a></h4>
-                            <p>Airtime is a live social space where you can do what you love over video</p>
+                            <p>With our Airtime purchase, you get a huge validity on social space where you can do what you love via phone calls or video communications.</p>
                         </div>
                     </div>
 
@@ -240,7 +246,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
                             <h4><a href="">Databundle</a></h4>
-                            <p>Get cheap and fast internet for your Smartphone. Choose from a variety of data bundles</p>
+                            <p>Get cheap, strong and fast internet access for your Smartphones.
+                                You can choose from a variety of the bundles we have available.</p>
                         </div>
                     </div>
 
@@ -256,7 +263,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
                             <h4><a href=""> CableTV</a></h4>
-                            <p>Never miss your favorite shows! Easily renew your GOtv, DStv, and Startimes subscriptions on our platform in just a few clicks</p>
+                            <p>Never you miss out on any of your favorite shows!
+                                Log in and easily renew your GOtv, DStv, and Startimes subscriptions on our platform in just a few clicks</p>
                         </div>
                     </div>
 
@@ -327,21 +335,22 @@
 
 
         <!-- ======= Cta Section ======= -->
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
+{{--        <section id="cta" class="cta">--}}
+{{--            <div class="container" data-aos="zoom-in">--}}
 
-                <div class="row">
-                    <div class="col-lg-9 text-center text-lg-start">
-                        <h3>Call To Action</h3>
-                        <p> You Can Perform Quick Transactions Anytime And Anywhere Using Any Device. Awesome Customer Support. Quick Payment Steps. Safe and Secure. Services: Instant Reconnection, 24/7 Support, Secure Payment, Fast Support Response, Prompt Customer Support.</p>
-                    </div>
-                    <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="#">Call To Action</a>
-                    </div>
-                </div>
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-9 text-center text-lg-start">--}}
+{{--                        <h3>Call To Action</h3>--}}
+{{--                        <p> You Can Perform Quick Transactions Anytime And Anywhere Using Any Device. Awesome Customer Support. Quick Payment Steps. Safe and Secure. Services: Instant Reconnection, 24/7 Support, Secure Payment, Fast Support Response, Prompt Customer Support.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-3 cta-btn-container text-center">--}}
+{{--                        <a class="cta-btn align-middle" href="#">Call To Action</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Cta Section -->
+{{--            </div>--}}
+{{--        </section>--}}
+        <!-- End Cta Section -->
 
 
         <!-- ======= Team Section ======= -->
@@ -477,34 +486,37 @@
                 <div class="faq-list">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">how can i register  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">HOW DO I REGISTER? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <p>
-                                    click on sign Up botton and fill your details in there, then click on register, that how you have an account with us
+                                    Click on the "Sign Up"  button and fill in your details, then click on register, that's how you can create an account with us.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How can i fund my account ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">HOW DO I FUND MY WALLET? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Transfer to the account number on your dashboard, and your account will be automatically fund, you don't need to tend reciecpt before it deliver
+                                    Transfer your funds to the automated account details assigned only to your dashboard, or make use of our different Paystack funding options available for you.
+                                    You can as well reach out to the admin team should there be any network glitches.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Can i pay without funding my wallet? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">CAN I BUY WITH NO FUNDS IN MY WALLET? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Yes, you can buy anything without funding your wallet, all you have to do is have your ATM with you, pick what you want to buy then pay with paystack
+                                    Yes, all you have to do is to have your ATM card with you, pick what you want to buy or subscribe to, then pay via Paystack card funding.
+
+                                    You can reach out for more guidelines on this.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the services available on the Real Data Sub? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">CAN I HAVE A BRIEF VIEW OF YOUR SERVICES? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                                 <p>
                                 <h4>Airtime VTU </h4>
@@ -651,56 +663,56 @@
             </div>
         </div>
 
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
+{{--        <div class="footer-top">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row">--}}
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>Real Data Sub</h3>
-                        <p>We offer you the most affordable and cheapest datas, airtime, cable subscription, and eletricty bil payment. When is comes to renewing your bills, we are the best partner you can have. </p>
-                        <!--            <p>-->
-                        <!--               OguBolo, River State Nigeria. <br><br>-->
-                        <!--&lt;!&ndash;              <strong>Phone:</strong> +234 803 6711 447<br>&ndash;&gt;-->
-                        <!--              <strong>Email:</strong> info@realdatasub.com.ng<br>-->
-                        <!--              &nbsp;&nbsp  &nbsp;&nbsp  <p> admin@realdatasub.com.ng </p>-->
-                        <!--            </p>-->
-                    </div>
+{{--                    <div class="col-lg-3 col-md-6 footer-contact">--}}
+{{--                        <h3>Real Data Sub</h3>--}}
+{{--                        <p>We offer you the most affordable and cheapest datas, airtime, cable subscription, and eletricty bil payment. When is comes to renewing your bills, we are the best partner you can have. </p>--}}
+{{--                        <!--            <p>-->--}}
+{{--                        <!--               OguBolo, River State Nigeria. <br><br>-->--}}
+{{--                        <!--&lt;!&ndash;              <strong>Phone:</strong> +234 803 6711 447<br>&ndash;&gt;-->--}}
+{{--                        <!--              <strong>Email:</strong> info@realdatasub.com.ng<br>-->--}}
+{{--                        <!--              &nbsp;&nbsp  &nbsp;&nbsp  <p> admin@realdatasub.com.ng </p>-->--}}
+{{--                        <!--            </p>-->--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
+{{--                    <div class="col-lg-3 col-md-6 footer-links">--}}
+{{--                        <h4>Useful Links</h4>--}}
+{{--                        <ul>--}}
+{{--                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>--}}
+{{--                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>--}}
+{{--                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>--}}
+{{--                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>--}}
+{{--                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
 
-                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->
-                    <!--            <h4>Our Services</h4>-->
-                    <!--            <ul>-->
-                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Airtime Sales</a></li>-->
-                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Bundle</a></li>-->
-                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">TV Subscription</a></li>-->
-                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Electricity Payment</a></li>-->
-                    <!--            </ul>-->
-                    <!--          </div>-->
+{{--                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->--}}
+{{--                    <!--            <h4>Our Services</h4>-->--}}
+{{--                    <!--            <ul>-->--}}
+{{--                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Airtime Sales</a></li>-->--}}
+{{--                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Bundle</a></li>-->--}}
+{{--                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">TV Subscription</a></li>-->--}}
+{{--                    <!--              <li><i class="bx bx-chevron-right"></i> <a href="#">Electricity Payment</a></li>-->--}}
+{{--                    <!--            </ul>-->--}}
+{{--                    <!--          </div>-->--}}
 
-                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->
-                    <!--            <h4>Our Social Networks</h4>-->
-                    <!--            <p>You can contact us via this</p>-->
-                    <!--            <div class="social-links mt-3">-->
-                    <!--              <a href="https://www.youtube.com/@Ekponomendie" class="twitter"><i class="bx bxl-youtube"></i></a>-->
-                    <!--              <a href="https://m.facebook.com/mendiee1/" class="facebook"><i class="bx bxl-facebook"></i></a>-->
-                    <!--              <a href="https://www.instagram.com/mendiee1/" class="instagram"><i class="bx bxl-instagram"></i></a>-->
-                    <!--              <a href="https://wa.link/aad9x2" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>-->
-                    <!--            </div>-->
-                    <!--          </div>-->
+{{--                    <!--          <div class="col-lg-3 col-md-6 footer-links">-->--}}
+{{--                    <!--            <h4>Our Social Networks</h4>-->--}}
+{{--                    <!--            <p>You can contact us via this</p>-->--}}
+{{--                    <!--            <div class="social-links mt-3">-->--}}
+{{--                    <!--              <a href="https://www.youtube.com/@Ekponomendie" class="twitter"><i class="bx bxl-youtube"></i></a>-->--}}
+{{--                    <!--              <a href="https://m.facebook.com/mendiee1/" class="facebook"><i class="bx bxl-facebook"></i></a>-->--}}
+{{--                    <!--              <a href="https://www.instagram.com/mendiee1/" class="instagram"><i class="bx bxl-instagram"></i></a>-->--}}
+{{--                    <!--              <a href="https://wa.link/aad9x2" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>-->--}}
+{{--                    <!--            </div>-->--}}
+{{--                    <!--          </div>-->--}}
 
-                </div>
-            </div>
-        </div>
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <div class="container footer-bottom clearfix">
             <div class="copyright">
