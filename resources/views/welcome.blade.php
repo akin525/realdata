@@ -176,7 +176,8 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                         <h3>About Real Data Sub</h3>
-                        <p class="fst-italic">
+                        <p >
+{{--                            class="fst-italic"--}}
                             With Real Data Sub, you can purchase airtime, subscribe data to your phones or laptops, pay electricity bills and then again pay for your CableTV subscriptions seamlessly all by yourself with just the click of a button.
 
                             We're 24/7 functional and our Customer Support Systems are prompt to response to any complaints or suggestions you may think of.
