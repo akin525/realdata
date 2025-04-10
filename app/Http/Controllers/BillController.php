@@ -258,11 +258,10 @@ class BillController
 
         } else {
             $user = User::find($request->user()->id);
-//            $bt = data::where("id", $request->productid)->first();
+            $bt = savebills::where("id", $request->productid)->first();
 //                $wallet = wallet::where('username', $user->username)->first();
 //return $bt;
-            $gt = $user->wallet - $request->amount;
-
+            $gt = $user->wallet - $bt->tamount;
 
             $user->wallet = $gt;
             $user->save();
@@ -312,11 +311,6 @@ class BillController
                     'refid' => $request->refid,
                 ]);
 
-//                $profit = profit::create([
-//                    'username' => $user->username,
-//                    'plan' => $bab->plan,
-//                    'amount' => $po,
-//                ]);
 
                 $name = $bab['plan'];
                 $am = "$name  was successful delivered to";
@@ -327,9 +321,7 @@ class BillController
                 ]);
 
             } else {
-//                $zo = $user->wallet + $request->amount;
-//                $user->wallet = $zo;
-//                $user->save();
+
 
                 $name = $bab['tamount'];
                 $am = "NGN $name Was Refunded To Your Wallet";
