@@ -304,7 +304,7 @@ class BillController
                 $bo = bo::create([
                     'username' => $user->username,
                     'plan' => $bab->plan,
-                    'amount' => $request->amount,
+                    'amount' => $bt->tamount,
                     'server_res' => $response,
                     'result' => $success,
                     'phone' => $request->number,
