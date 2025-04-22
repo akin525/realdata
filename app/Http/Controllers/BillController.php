@@ -322,7 +322,15 @@ class BillController
 
             } else {
 
-
+                $bo = bo::create([
+                    'username' => $user->username,
+                    'plan' => $bab->plan,
+                    'amount' => $bt->tamount,
+                    'server_res' => $response,
+                    'result' => $success,
+                    'phone' => $request->number,
+                    'refid' => $request->refid,
+                ]);
                 $name = $bab['tamount'];
                 $am = "NGN $name Was Refunded To Your Wallet";
                 $ph = ", Transaction fail";
