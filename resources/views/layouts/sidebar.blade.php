@@ -253,13 +253,13 @@
 {{--                        <span class="nav-text">Homepage</span>--}}
 {{--                    </a>--}}
 {{--                </li>--}}
-                @if(Auth::user()->role=='admin')
-                <li><a href="{{route('admin/dashboard')}}" class="ai-icon">
-                        <i class="flaticon-144-layout"></i>
-                        <span class="nav-text">Admin Dashboard</span>
-                    </a>
-                </li>
-                @endif
+{{--                @if(Auth::user()->role=='admin')--}}
+{{--                <li><a href="{{route('admin/dashboard')}}" class="ai-icon">--}}
+{{--                        <i class="flaticon-144-layout"></i>--}}
+{{--                        <span class="nav-text">Admin Dashboard</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--                @endif--}}
                 <li><a href="{{route('dashboard')}}" class="ai-icon">
                         <i class="flaticon-144-layout"></i>
                         <span class="nav-text">Dashboard</span>

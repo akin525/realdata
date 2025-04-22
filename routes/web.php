@@ -49,6 +49,7 @@ Route::post('pass1', [AuthController::class, 'pass1'])->name('pass1');
 Route::get('/', [AuthController::class, 'welcome'])->name('welcome');
 Route::get('price', [AuthController::class, 'priceload'])->name('price');
 
+Route::view('admin/login','auth.login');
 Route::middleware(['auth'])->group(function () {
     Route::get('dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
     Route::post('pass', [AuthController::class, 'updatepa'])->name('pass');
